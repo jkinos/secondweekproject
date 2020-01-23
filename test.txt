@@ -1,0 +1,5 @@
+566962;Sovelto Hybrid: MCSA Machine Learning;5.11.2018;4.2.2019;Pasila; ;Sertifioidu Azuren koneoppimessaMachine learning kuuluu tämän hetken kuumimpiin termeihin.;True;Technology;Databases and Analytics;Reporting and BI
+566962;Sovelto Hybrid: MCSA Machine Learning;5.11.2018;4.2.2019;Pasila;;Sertifioidu Azuren koneoppimessaMachine learning kuuluu tämän hetken kuumimpiin termeihin.;True;Technology;Databases and Analytics;Reporting and BI
+566962;Sovelto Hybrid: MCSA Machine Learning;5.11.2018;4.2.2019;Pasila;;Sertifioidu Azuren koneoppimessaMachine learning kuuluu tämän hetken kuumimpiin termeihin.;True;Technology;Databases and Analytics;Reporting and BI
+566962;Sovelto Hybrid: MCSA Machine Learning;2018-11-05;2019-02-04;Pasila;;Sertifioidu Azuren koneoppimessaMachine learning kuuluu tämän hetken kuumimpiin termeihin.;True;Technology;Databases and Analytics;Reporting and BI
+1;566962;Sovelto Hybrid: MCSA Machine Learning;2018-11-05;2019-02-04;Pasila;;Sertifioidu Azuren koneoppimessaMachine learning kuuluu tämän hetken kuumimpiin termeihin.;True;Technology;Databases and Analytics;Reporting and BI

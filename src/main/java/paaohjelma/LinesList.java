@@ -30,12 +30,12 @@ public class LinesList {
         FileWriter fw = new FileWriter(filename, true);
         PrintWriter pw = new PrintWriter(fw);
 
-/*        this.listOfLines.stream()
-                .forEach(oneline -> pw.println(oneline));*/
+        this.listOfLines.stream()
+                .forEach(oneline -> pw.println(oneline));
 
-        for(Line oneline : this.listOfLines) {
+ /*       for(Line oneline : this.listOfLines) {
              pw.println(oneline);
-        }
+        }*/
         pw.close();
         fw.close();
 
@@ -44,6 +44,7 @@ public class LinesList {
 
     @Override
     public String toString() {
+
         return "LinesList{" +
                 "listOfLines=" + listOfLines +
                 '}';

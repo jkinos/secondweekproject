@@ -2,21 +2,15 @@ package paaohjelma;
 
 public class Error implements Comparable<Error>{
     int lineNumber;
-    String field;
     String explanation;
 
-    public Error(int lineNumber, String field, String explanation){
+    public Error(int lineNumber, String explanation){
         this.lineNumber = lineNumber;
-        this.field = field;
         this.explanation = explanation;
     }
 
     public int getLine() {
         return lineNumber;
-    }
-
-    public String getField() {
-        return field;
     }
 
     public String getExplanation() {
@@ -25,7 +19,7 @@ public class Error implements Comparable<Error>{
 
     @Override
     public String toString() {
-        return this.lineNumber + ";" + this.field +";" + this.explanation;
+        return this.lineNumber + ";" + this.explanation;
     }
 
     @Override

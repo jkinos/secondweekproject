@@ -19,7 +19,6 @@ public class Line {
     private String subcat1;
     private String subcat2;
 
-
     public Line(int lineNumber, int coursecode,
                 String name,
 /*                LocalDate startdate,
@@ -38,6 +37,7 @@ public class Line {
         this.name = name;
         this.start = convertStringToLocalDate(startdate);
         this.end = convertStringToLocalDate(enddate);
+
         this.location = location;
         this.materialtype = materialtype;
         this.description = description;
@@ -88,6 +88,7 @@ public class Line {
 
     public void setEnd(LocalDate date) {
         this.end = date;
+ 
     }
 
     public String getLocation() {
@@ -126,6 +127,7 @@ public class Line {
         return maincategory;
     }
 
+
     public void setMaincategory(String maincategory) {
         this.maincategory = maincategory;
     }
@@ -133,6 +135,7 @@ public class Line {
     public String getSubcat1() {
         return subcat1;
     }
+
 
     public void setSubcat1(String subcat1) {
         this.subcat1 = subcat1;
@@ -152,4 +155,5 @@ public class Line {
         return lineNumber + ";" + coursecode + ";" + name + ";" + start + ";" + end + ";" + location + ";" + materialtype + ";"
                 + description + ";" + materialcode + ";" + maincategory + ";" + subcat1 + ";" + subcat2;
     }
+
 }
